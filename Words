@@ -284,6 +284,32 @@ System.out.println("size of ArrayList after clearing elements: " + size);
      
     
   
+                /*
+        Dog[] m4a = new Dog[20];
+        int counter = 0;
+        
+        int count = 0;
+        
+        
+        
+        int matriz[];
+
+        matriz = new int[20];
+     
+        int x = 0;
+        
+          
+        while ( x < 7) {
+            m4a[x] = new Dog ();
+            m4a[x].counter = m4a[x].counter + 1;
+            count = count + 1;
+            count = count + m4a[x].maybeNew(x);
+            x = x + 1;
+            
+        }
+            System.out.println( count + "" + m4a[1].counter);
+        
+        */
         
     
         
