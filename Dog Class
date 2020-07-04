@@ -1,0 +1,83 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package words;
+
+/**
+ *
+ * @author callmedaddy
+ */
+public class Dog {
+    
+   String name = "bart";
+   String title;
+   String author;
+   
+   static String time;
+
+   private int size;
+   int r = 0;
+
+   
+   void bark() {
+       System.out.println(name + " says Ruff");
+   }
+
+   public void setSize(int s) {
+       
+        size = r;
+    }
+    
+   public int getSize(){
+       
+       return size;
+   }
+   
+   
+   
+   
+   
+   int calArea( int heigth, int width){
+       
+       
+     
+       return heigth*width;
+       
+    
+   }
+   
+   public static void setTime(String  t) {
+  
+       time = t;
+   }
+   
+   public static String getTime(){
+       
+       return time;
+   
+   }
+
+   
+     
+   /*
+   
+   declarar 
+   
+   x = 0;
+   y = x + y;
+   
+   un ciclo for para que cuenta las veces 
+   que se presiona el boton
+   si
+   supera los 3 6 9 
+   cambia de color por cada vez que supere
+   esos 3 niveles
+   
+   
+   */
+   
+   
+    
+}
