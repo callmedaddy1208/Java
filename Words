@@ -1,0 +1,305 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package words;
+
+import java.util.ArrayList;
+
+/**
+ *
+ * @author callmedaddy
+ */
+public class Words {
+
+    /**
+     * @param args the command line arguments
+     */
+
+    public static void main(String[] args) {
+        
+        
+            
+        // TODO code application logic here
+        
+        /*
+        String[] wordList = {"Descalzo", "chocolate", "pan", "palta", "correo"
+                , "vuelo ", " cariño","PABLO", " bonito", " bonita", "bella ", " estrella"
+                , " poema","BRYAN", "anhela ", "telefono "," SEBA ", "darte ","ESTEBAN", " quererte "
+               , "dejarte " ,"BENJAMIN", "romperte", " compremeterte" 
+        
+        };
+        
+        int oneLength = wordList.length;
+        
+        int rand1 = (int) (Math.random() * oneLength);
+        
+        String frase = wordList[rand1];
+        
+        System.out.println(" la palabra es :  " + frase); 
+        */
+        
+        /*
+                
+         int x2 = 1;
+         
+         while ( x2 < 10){
+             
+             x2 = x2 + 1;
+             
+             if ( x2 > 3){
+                 
+                 System.out.println("Joker");
+             }
+         }
+         
+         
+        int x = 5;
+        
+        while (x > 1) {
+            
+            x = x - 1;
+            
+            if ( x < 3) {
+                
+                System.out.println(" small");
+            }
+        }
+        
+   
+        */
+        
+        /*
+     
+         DrumKit d = new DrumKit();
+         
+         d.playTopHat();
+         d.snare = false;
+         d.playSnare();
+        
+         
+         if (d.snare == true) {
+         d.playSnare();
+         }
+
+        */
+        
+        /*
+        DrumKit e1 = new DrumKit();
+        DrumKit e2 = new DrumKit();
+        
+        int x = 0;
+        
+        
+        while ( x < 4 ){ // empiezas con menor a 4 
+            e1.hello();
+            e1.count = e1.count + 1; // me falto este 
+           
+       
+        if ( x == 3 ){ // aqui era  3
+            e2.count = e2.count + 1;
+            
+        }
+        
+        if ( x > 0  ){
+            e2.count = e2.count + e1.count;
+        }
+        
+        x = x + 1;
+        
+        }
+        
+        System.out.println(e2.count);
+        */
+        
+        /*
+        Dog dog1 = new Dog(); // make a dog objetvo and access it
+        dog1.bark();
+        dog1.name = " Bart ";
+        
+        //Now make a Dog array
+        Dog[] myDogs = new Dog [3];
+   
+
+
+        myDogs[0] = new Dog();
+        myDogs[1] = new Dog();
+        myDogs[2] = dog1;
+        
+        // now access the Dogs using the array
+        // references
+        
+        myDogs[0].name = "Fred";
+        myDogs[1].name = "Marge";
+        
+        System.out.print("Last dog's name is");
+        System.out.println(myDogs[2].name);
+        
+        int x = 0;
+        
+        while (x < myDogs.length){ // array have a variable length that gives you the number of elements in the array
+            
+            
+            myDogs[x].bark();
+            
+            x = x + 1;
+            
+        }
+        
+ArrayList<String> listOfBanks = new ArrayList<>(); int size = listOfBanks.size(); System.out.println("size of array list after creating: " + size); listOfBanks.add("Citibank"); listOfBanks.add("Chase"); listOfBanks.add("Bank of America"); 
+size = listOfBanks.size();
+
+System.out.println("size of ArrayList after clearing elements: " + size);
+
+        */
+        
+        
+        /*
+        
+        Dog[] myBooks = new Dog[3]; // DECLARA
+        myBooks[0] = new Dog(); // INICIALIZA
+        myBooks[1] = new Dog(); 
+        myBooks[2] = new Dog(); 
+        
+        int x = 0;  
+     
+      
+        myBooks[0].title = " The Grapes of Java";
+        myBooks[1].title = " The Java Gatsby";
+        myBooks[2].title = " The Java Cookbook";
+        myBooks[0].author = " bob ";
+        myBooks[1].author = " sue ";
+        myBooks[2].author = " ian ";
+        
+        
+        while ( x < 3 ){
+            
+           
+             
+             System.out.println(myBooks[x].title);
+             System.out.println(" by ");
+             System.out.println(myBooks[x].author);
+
+             
+             x = x + 1;
+        }
+
+        */
+        
+        
+        /*
+        Dog [] h = new Dog[3]; // indice mas alto disponible es 2
+  
+        
+        int z = 0;
+        
+        for ( z = 0 ; z <= h.length; z++)
+          
+            
+       
+        
+        while ( z < 2) { // tenia 4 y tine que ser dos porque tengo 2 if
+            
+
+            z = z + 1;
+            
+            h[z] = new Dog();
+            
+            h[z].name = "bilbo";
+            if ( z == 1) {
+                h[z].name = "frodo";
+            }
+            if (z == 2) {
+                h[z].name = " sam ";
+            }
+            
+            System.out.println(h[z].name + " is a ");
+            System.out.println("Good Hobbit name");
+            
+        }
+        */
+        
+        
+        //DrumKit ts = new DrumKit();
+        
+        //ts.takeTwo(1, 2);
+        
+        /*
+     
+        DrumKit one = new DrumKit();
+        
+        one.setSize(30);
+        
+        DrumKit two = new DrumKit();
+        
+        two.setSize(8);
+        
+        System.out.println("Dog one : " + one.getSize());
+        System.out.println("Dog two : " + two.getSize());
+        
+        one.bark();
+        two.bark();
+        
+        int x = 3 + one.getSize(); //nazy
+        
+        System.out.println(" x " + x );
+        
+        */
+        
+        /*
+        Dog[] pets; //declarar y crear un perro array para mantener 7 referencias
+        
+        pets = new Dog [7]; // crear dos nuevos objetos, asigandoles el primer y segundo elemento al array
+        
+        
+        pets[0] = new Dog();
+        pets[1] = new Dog();
+        
+        
+        pets[0].setSize(30);
+        int r = pets[0].getSize();
+        pets[1].setSize(8);
+        
+        System.out.println("is " + pets[r]);
+       */
+
+        
+       
+        //Dog cal = new Dog();
+        
+        //int a = cal.calArea(1,12); // al fin pude llamar
+        
+        //System.out.println("IS : " +a);
+        
+ 
+
+        
+        Dog tim = new Dog();
+        
+        
+        tim.setTime("12345");
+        String tod = tim.getTime();
+        System.out.println("Time is :" + tod);
+     
+    
+  
+        
+    
+        
+    
+        
+        
+    } 
+      
+        
+    
+        
+    }
+    
+    
+   
+    
+    
+    
+
