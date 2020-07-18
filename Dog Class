@@ -58,6 +58,10 @@ public class Dog {
        return time;
    
    }
+   void setArea(){
+        area = (height * length) / 2;
+    }
+     
 
    
      
