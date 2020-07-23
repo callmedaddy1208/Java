@@ -123,6 +123,16 @@ public class Dog {
         }
         
         */
+        
+         /*
+           void setTimes(String t ){
+               times = t;
+           }
+           
+           String getTimes(){ // recuerda que el valor que estas pidiendo es String
+               return times; // como void int o boolean
+           } 
+            */
    
     
 }
