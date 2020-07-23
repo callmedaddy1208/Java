@@ -405,6 +405,13 @@ System.out.println("size of ArrayList after clearing elements: " + size);
         
         */
         
+        Dog c = new Dog();
+        
+        c.setTimes("1234"); // asignar
+        String tod = c.getTimes(); // obtener y almacenar en otra variable
+        System.out.println("Time" + tod); // mostrar la variable nueva tod
+        */
+        
     
         
     
