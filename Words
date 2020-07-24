@@ -412,7 +412,36 @@ System.out.println("size of ArrayList after clearing elements: " + size);
         System.out.println("Time" + tod); // mostrar la variable nueva tod
         */
         
-    
+      /*
+        Dog[] obs = new Dog[6];
+        
+        int y = 1;
+        int x = 0;
+        int result = 0;
+        
+        while (x < 6){
+            
+            obs[x] = new Dog();
+            //obs[x].doStuff(x); es igualar el ivar con el y
+            obs[x].ivar = y;
+            y = y * 10;
+            
+            x = x + 1;
+        }
+        
+        x = 6;
+        while ( x > 0 ) { 
+            
+            x = x - 1;
+            
+            //result = result + x; // aqui va el doStuff de arriba 
+            result = result + obs[x].doStuff(x);
+            
+            
+        }
+        System.out.println("result"+ result);
+        
+        */
         
     
         
