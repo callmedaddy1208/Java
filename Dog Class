@@ -133,6 +133,20 @@ public class Dog {
                return times; // como void int o boolean
            } 
             */
+            
+             /*
+        public int doStuff(int factor){
+            
+            if (ivar > 100){
+                return ivar * factor; // esta bien multiplicacar pero es factor
+            } else {
+                return ivar * (5-factor); // 5-factor
+            }
+            
+        }
+    
+    */
+    
    
     
 }
